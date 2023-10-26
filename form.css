@@ -1,0 +1,67 @@
+body{
+    background: url("sign\ in\ 5.webp");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.regform{
+    width: 600px;
+    margin: 150px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-style:bold;
+    padding: 10px 20px 30px;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+.regform h3{
+    font-size: 80px;
+    color:tomato;
+    text-align: center;
+}
+
+.regform .textlabel{
+    display: block;
+    
+}
+
+.input input{
+    width: 100%;
+    font-size: 1.5em;
+    border: 1px solid green;
+    border-radius: 10px;
+    box-shadow: 2px;
+    padding: 10px 20px;
+    /* border box is to contain the input box within regform box */
+    box-sizing: border-box;
+    margin: 5px 0 15px;
+}
+
+input:focus{
+    background-color:rgb(215, 183, 183);
+}
+
+.btn{
+    text-align: center;
+}
+button{
+    background-color:green;
+    font-size: 45px;
+    margin: 20px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: 1px solid rgb(50, 40, 26);
+    box-shadow: 1px solid;
+    font-family: solid;
+}
+
+.radio input{
+    transform: scale(4);
+    accent-color: blue;
+    margin:35px;
+    
+}
+
+
+
+
